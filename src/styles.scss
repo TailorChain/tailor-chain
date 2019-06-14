@@ -109,14 +109,27 @@
   app-top-bar {
     width: 100%;
     height: 68px;
-    background-color: #000046;
+    background-color: #ffffff;
     padding: 16px;
+    // padding-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
-  
+  app-top-bar .logo-picture-div {
+    height: 150px;
+    width: 400px;
+    margin: 0;
+    padding-top: 20px
+  }
+  app-top-bar .logo-picture {
+    height: 115px;
+    width: 300px;
+    margin: 0;
+    padding-top: 20px
+  }
+
   app-top-bar h1 {
     color: white;
     margin: 0;
